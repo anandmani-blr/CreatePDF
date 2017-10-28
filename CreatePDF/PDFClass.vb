@@ -4,6 +4,7 @@ Imports Spire.Xls.Converter
 Public Class PDFClass
     Public Function fnCreatePDF(ByVal strKey As String, ByVal strSourcePath As String, ByRef strDestPath As String) As Boolean
         'strSourcePath = replace(strSourcePath,"")
+        'Anand Added new code to test
         Try
             If UCase(strKey) = "VS1961" Then
                 fnCreatePDF = False
